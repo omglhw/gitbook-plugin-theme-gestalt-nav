@@ -1,0 +1,116 @@
+/* 导航 */
+
+
+
+// Styling for logo div
+$sidebar-logo-map                   : (
+                                       
+                                    ) !default;
+
+// The height of the logo image
+$sidebar-logo-height                : 30px !default;
+
+
+
+.header-inner {
+    
+	width: 100%;
+	padding: 10px 30px;
+	border-bottom: 1px solid #dededede;
+	margin: auto;
+	*zoom: 1;
+	height: $page-header-height;
+	&:before {
+		content: " ";
+		display: table;
+		line-height: 0;
+	}
+	&:after {
+		content: " ";
+		display: table;
+		line-height: 0;
+		clear: both;
+	}
+	.logo {
+		float: left;
+		height: 50px;
+		width: 120px;
+		background: url('./logo.png');
+		background-size: 120px 50px;
+		background-repeat: no-repeat;
+		img {
+			display: block;
+			height: inherit;
+			padding: 5px 0;
+		}
+    }
+    
+	.title {
+		float: left;
+		font-size: 16px;
+		line-height: 16px;
+		padding: 8px 0px;
+		color: #333;
+		.dot {
+			font-size: 25px;
+			display: inline-block;
+			transform: translateY(-3px);
+			padding: 0 4px;
+		}
+	}
+	
+	.more {
+		float: left;
+		i.toggle-dropdown {
+			font-size: 18px;
+			line-height: 40px;
+			padding: 0 10px;
+			cursor: pointer;
+		}
+
+		.dropdown-menu {
+			left: -23px;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 8px 0;
+			li {
+				height: 40px;
+				line-height: 40px;
+				padding: 0 24px;
+				font-size: 14px;
+				width: max-content;
+				
+				a {
+					color: #606266;
+					text-decoration: none;
+				}
+				&:hover {
+					a {
+						color: darken( $color-primary, 1%);
+					}
+				}
+
+			}
+		}
+		
+	}
+        
+    //  *******************************************************
+    //  ## The logo
+    //  *******************************************************
+
+    .book-logo
+    {
+		padding: $sidebar-padding-unit 0;
+		float: left;
+        @include print( $sidebar-logo-map );
+    }
+
+    .book-logo img
+    {
+        max-height: $sidebar-logo-height;
+    }
+}

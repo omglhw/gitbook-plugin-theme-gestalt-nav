@@ -1,0 +1,46 @@
+// 媒体适配兼容
+
+
+
+@media (max-width: 768px) {
+	.book-summary {
+		top: 101px;
+	}
+	.book-body {
+		top: 101px;
+	}
+	.header-inner {
+		#book-search-input {
+			clear: both;
+			width: 100%;
+			top: 11px;
+			position: relative;
+		}
+	}
+ 
+}
+
+@media (max-width: $mobileMaxWidth) {
+
+	.header-inner {
+		.title {
+			display: none;
+		}
+    }
+    .book-anchor {
+        display: none;
+    }
+    .page-inner {
+        padding-right: 40px;
+    }
+ 
+}
+
+@media (max-width: 480px) {
+
+	.header-inner {
+		.title {
+			display: none;
+		}
+    } 
+}
