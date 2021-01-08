@@ -3176,17 +3176,17 @@ body.with-search .navigation {
   border-left: 2px solid #ececec; }
   .book-anchor a {
     display: block;
-    line-height: 25px;
-    color: #656565;
+    line-height: 35px;
+    color: #666666;
     font-size: 13px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; }
     .book-anchor a:hover {
-      color: #f34d4d;
+      color: #1F93FF;
       text-decoration: none; }
   .book-anchor .selected {
-    color: #f34d4d;
+    color: #1F93FF;
     text-decoration: none;
     font-weight: bold; }
   .book-anchor .anchor-h2 {
@@ -3267,6 +3267,15 @@ body.with-search .navigation {
     float: left; }
   .header-inner .book-logo img {
     max-height: 30px; }
+
+th {
+  color: #999999;
+  background: #f2f2f2;
+  padding: 10px; }
+
+td {
+  color: #666666;
+  padding: 20px 10px; }
 
 @media (max-width: 768px) {
   .book-summary {

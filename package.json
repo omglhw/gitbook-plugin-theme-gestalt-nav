@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-theme-gestalt",
+  "name": "gitbook-plugin-theme-gestalt-nav",
   "description": "A configurable theme for GitBook",
   "main": "./index.js",
   "version": "1.0.7",
@@ -27,13 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/antonlegoo/gitbook-plugin-theme-gestalt"
+    "url": "https://github.com/omglhw/gitbook-plugin-theme-gestalt-nav"
   },
-  "author": "Anton Legoo <azeven@gmail.com>",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/antonlegoo/gitbook-plugin-theme-gestalt/issues"
-  },
   "gitbook": {
     "properties": {
       "styles": {

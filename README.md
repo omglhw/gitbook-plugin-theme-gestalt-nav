@@ -1,3 +1,7 @@
+
+![截图](./截图.png)
+![截图2](./截图2.png)
+
 # Gestalt Theme for Gitbook
 
 Gestalt is a theme for [Gitbook](http://www.gitbook.com). While its layout is based off of the [default Gitbook theme](https://github.com/GitbookIO/theme-default), it aims to be highly configurable for styling. This is achieved by porting the default theme styles to SASS and turning most things that were CSS rules into variables.

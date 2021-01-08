@@ -1,0 +1,17 @@
+$th-map                          :(
+                                    background:$color-gray-lightest,
+                                    padding: 10px
+                                ) !default;
+$td-map                         :(
+                                    padding: 20px 10px
+                                ) !default;
+th {
+    color: $color-gray-light;
+    
+    @include print( $th-map );
+}
+
+td {
+    color: $color-gray;
+    @include print( $td-map );
+}
